@@ -2,7 +2,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.15+-orange.svg)](https://tensorflow.org/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-Live_App-red.svg)](https://skin-lesion-detection.streamlit.app/) **Live Web Application:** [Click here to view the deployed CDSS dashboard](https://skin-lesion-detection.streamlit.app/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-Live_App-red.svg)](https://skin-lesion-detection.streamlit.app/) **Live Web Application:** [Click here to view the deployed CDSS dashboard](https://legiondetection.streamlit.app/)
 
 ## 🚀 Project Overview
 This project is a clinical-grade Multimodal Artificial Intelligence tool designed to assist dermatologists in diagnosing skin lesions. Instead of relying solely on image pixels like traditional CNNs, this Y-Shaped Neural Network mimics real-world clinical diagnosis by fusing **Dermatoscopic Imagery** with **Patient Metadata** (Age, Biological Sex, and Anatomical Site).
