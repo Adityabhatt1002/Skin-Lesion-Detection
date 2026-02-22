@@ -8,7 +8,12 @@
 This project is a clinical-grade Multimodal Artificial Intelligence tool designed to assist dermatologists in diagnosing skin lesions. Instead of relying solely on image pixels like traditional CNNs, this Y-Shaped Neural Network mimics real-world clinical diagnosis by fusing **Dermatoscopic Imagery** with **Patient Metadata** (Age, Biological Sex, and Anatomical Site).
 
 <img width="1310" height="876" alt="Screenshot 2026-02-22 141259" src="https://github.com/user-attachments/assets/21b34ea6-60b3-43ee-9687-ff8917769ba1" />
-
+## 🔬 Target Classifications
+The CDSS is trained to differentiate between four distinct classes of skin lesions, prioritizing the identification of malignant tumors:
+1. **Melanoma (MEL):** Highly malignant and deadly skin cancer. Requires immediate biopsy.
+2. **Basal Cell Carcinoma (BCC):** A common, treatable form of skin cancer. 
+3. **Melanocytic Nevus (NV):** Standard benign moles.
+4. **Benign Keratosis (BKL):** Non-cancerous skin growths (e.g., seborrheic keratosis).
 
 ## 🧠 Core Features & Engineering
 * **Y-Shaped Multimodal Architecture:** Fuses 1,280 visual features (extracted via EfficientNetB0) with 32 statistical risk features (processed via customized Dense layers).
